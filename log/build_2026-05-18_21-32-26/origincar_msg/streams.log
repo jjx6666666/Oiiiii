@@ -1,0 +1,161 @@
+[0.258s] Invoking command in '/root/dev_ws/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_msg -- -j8 -l8
+[5.909s] [ 10%] Built target origincar_msg__rosidl_generator_c
+[5.909s] [ 12%] Built target origincar_msg__cpp
+[5.910s] [ 12%] Built target ament_cmake_python_copy_origincar_msg
+[5.910s] [ 23%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp
+[5.911s] [ 33%] Built target origincar_msg__rosidl_typesupport_cpp
+[5.911s] [ 43%] Built target origincar_msg__rosidl_typesupport_introspection_cpp
+[5.912s] [ 53%] Built target origincar_msg__rosidl_typesupport_fastrtps_c
+[5.912s] [ 64%] Built target origincar_msg__rosidl_typesupport_introspection_c
+[5.913s] [ 74%] Built target origincar_msg__rosidl_typesupport_c
+[5.913s] [ 74%] Built target origincar_msg
+[5.914s] [ 76%] Built target origincar_msg__py
+[5.914s] [ 84%] Built target origincar_msg__rosidl_generator_py
+[5.914s] [ 89%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.915s] [ 94%] Built target origincar_msg__rosidl_typesupport_c__pyext
+[5.915s] [100%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext
+[5.916s] running egg_info
+[5.916s] writing origincar_msg.egg-info/PKG-INFO
+[5.917s] writing dependency_links to origincar_msg.egg-info/dependency_links.txt
+[5.917s] writing top-level names to origincar_msg.egg-info/top_level.txt
+[5.918s] reading manifest file 'origincar_msg.egg-info/SOURCES.txt'
+[5.918s] writing manifest file 'origincar_msg.egg-info/SOURCES.txt'
+[5.918s] [100%] Built target ament_cmake_python_build_origincar_msg_egg
+[5.986s] Invoked command in '/root/dev_ws/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_msg -- -j8 -l8
+[5.996s] Invoking command in '/root/dev_ws/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_msg
+[6.516s] -- Install configuration: ""
+[6.517s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/rosidl_interfaces/origincar_msg
+[6.517s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.519s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.520s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/rosidl_generator_c__visibility_control.h
+[6.521s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/sign.h
+[6.522s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.523s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__type_support.h
+[6.525s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__functions.h
+[6.526s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__struct.h
+[6.527s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__functions.c
+[6.528s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__functions.h
+[6.528s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__type_support.h
+[6.530s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__functions.c
+[6.531s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__struct.h
+[6.531s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/data.h
+[6.535s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/library_path.sh
+[6.535s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/library_path.dsv
+[6.537s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_generator_c.so
+[6.538s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.538s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.539s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.540s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.578s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_c.h
+[6.580s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+[6.582s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_c.so
+[6.585s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.587s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.588s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.589s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.590s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_c.h
+[6.592s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_c.h
+[6.594s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__type_support.c
+[6.596s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__type_support.c
+[6.601s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_c.so
+[6.646s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_c.so
+[6.647s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.647s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.649s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/data.hpp
+[6.650s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.651s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__traits.hpp
+[6.651s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__builder.hpp
+[6.652s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__builder.hpp
+[6.653s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__struct.hpp
+[6.653s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__struct.hpp
+[6.654s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__traits.hpp
+[6.655s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/sign.hpp
+[6.656s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.659s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.661s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.662s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/dds_fastrtps
+[6.671s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_cpp.hpp
+[6.673s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+[6.674s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.675s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_cpp.so
+[6.677s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg
+[6.681s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg
+[6.685s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail
+[6.688s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+[6.689s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/data__type_support.cpp
+[6.700s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_cpp.hpp
+[6.702s] -- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/origincar_msg/msg/detail/sign__type_support.cpp
+[6.704s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_cpp.so
+[6.726s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_cpp.so
+[6.730s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/pythonpath.sh
+[6.731s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/pythonpath.dsv
+[6.731s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg-0.0.0-py3.10.egg-info
+[6.732s] -- Installing: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.733s] -- Installing: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.737s] -- Installing: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.738s] -- Installing: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg-0.0.0-py3.10.egg-info/top_level.txt
+[6.751s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg
+[6.751s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_c.c
+[6.752s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg
+[6.753s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg/_sign_s.c
+[6.753s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg/_sign.py
+[6.754s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg/_data.py
+[6.755s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg/__init__.py
+[6.755s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg/_data_s.c
+[6.756s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.758s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/__init__.py
+[6.758s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.759s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.760s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.762s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/liborigincar_msg__rosidl_generator_py.so
+[6.763s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.966s] Listing '/root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg'...
+[6.966s] Listing '/root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/msg'...
+[7.027s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.034s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.038s] -- Up-to-date: /root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.050s] -- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_generator_py.so
+[7.051s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Data.idl
+[7.053s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Sign.idl
+[7.055s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Data.msg
+[7.056s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Sign.msg
+[7.061s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/package_run_dependencies/origincar_msg
+[7.071s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/parent_prefix_path/origincar_msg
+[7.072s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.sh
+[7.074s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.dsv
+[7.075s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/path.sh
+[7.077s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/path.dsv
+[7.080s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.bash
+[7.082s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.sh
+[7.091s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.zsh
+[7.092s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.dsv
+[7.095s] -- Installing: /root/dev_ws/install/origincar_msg/share/origincar_msg/package.dsv
+[7.096s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/packages/origincar_msg
+[7.108s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_generator_cExport.cmake
+[7.111s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_generator_cExport-noconfig.cmake
+[7.112s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[7.119s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.120s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport.cmake
+[7.137s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.137s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport.cmake
+[7.138s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[7.140s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_generator_cppExport.cmake
+[7.141s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.143s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.145s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[7.145s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.146s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport.cmake
+[7.147s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[7.153s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_generator_pyExport.cmake
+[7.155s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/export_origincar_msg__rosidl_generator_pyExport-noconfig.cmake
+[7.156s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake-extras.cmake
+[7.158s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.159s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.161s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[7.162s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[7.163s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.165s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.169s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig.cmake
+[7.170s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig-version.cmake
+[7.174s] -- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/package.xml
+[7.236s] Invoked command in '/root/dev_ws/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_msg

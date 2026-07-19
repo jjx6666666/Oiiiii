@@ -1,0 +1,57 @@
+[0.228s] Invoking command in '/root/dev_ws/build/hobot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /root/dev_ws/src/hobot_nav2-develop -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/hobot_nav2
+[4.753s] -- The C compiler identification is GNU 11.2.0
+[4.754s] -- The CXX compiler identification is GNU 11.2.0
+[4.754s] -- Detecting C compiler ABI info
+[4.754s] -- Detecting C compiler ABI info - done
+[4.755s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.755s] -- Detecting C compile features
+[4.756s] -- Detecting C compile features - done
+[4.756s] -- Detecting CXX compiler ABI info
+[4.757s] -- Detecting CXX compiler ABI info - done
+[4.757s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.758s] -- Detecting CXX compile features
+[4.758s] -- Detecting CXX compile features - done
+[4.759s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.759s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.626s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[5.626s] -- Found navigation2: 1.1.20 (/opt/ros/humble/share/navigation2/cmake)
+[5.627s] -- Found nav2_bringup: 1.1.20 (/opt/ros/humble/share/nav2_bringup/cmake)
+[5.628s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.907s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.908s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.908s] -- Added test 'lint_cmake' to check CMake code style
+[5.909s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.910s] -- Added test 'xmllint' to check XML markup files
+[5.910s] -- Configuring done
+[5.911s] -- Generating done
+[5.912s] -- Build files have been written to: /root/dev_ws/build/hobot_nav2
+[6.126s] Invoked command in '/root/dev_ws/build/hobot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /root/dev_ws/src/hobot_nav2-develop -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/hobot_nav2
+[6.133s] Invoking command in '/root/dev_ws/build/hobot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/hobot_nav2 -- -j8 -l8
+[6.333s] Invoked command in '/root/dev_ws/build/hobot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/hobot_nav2 -- -j8 -l8
+[6.341s] Invoking command in '/root/dev_ws/build/hobot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/hobot_nav2
+[6.397s] -- Install configuration: ""
+[6.398s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch
+[6.399s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/hobot_nav2_bringup.launch.py
+[6.400s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/param
+[6.400s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/param/hobot_nav2.yaml
+[6.401s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps
+[6.402s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/my_map.yaml
+[6.402s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1.pgm
+[6.403s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/my_map.pgm
+[6.407s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1.yaml
+[6.408s] -- Installing: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/package_run_dependencies/hobot_nav2
+[6.409s] -- Installing: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/parent_prefix_path/hobot_nav2
+[6.409s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/ament_prefix_path.sh
+[6.411s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/ament_prefix_path.dsv
+[6.413s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/path.sh
+[6.419s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/path.dsv
+[6.423s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.bash
+[6.426s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.sh
+[6.426s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.zsh
+[6.427s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.dsv
+[6.433s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/package.dsv
+[6.434s] -- Installing: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/packages/hobot_nav2
+[6.435s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/cmake/hobot_nav2Config.cmake
+[6.436s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/cmake/hobot_nav2Config-version.cmake
+[6.445s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/package.xml
+[6.529s] Invoked command in '/root/dev_ws/build/hobot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/hobot_nav2

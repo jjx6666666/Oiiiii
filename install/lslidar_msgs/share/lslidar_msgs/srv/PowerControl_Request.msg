@@ -1,0 +1,2 @@
+# 机械式 0: 下电   1: 上电
+uint8 power_control

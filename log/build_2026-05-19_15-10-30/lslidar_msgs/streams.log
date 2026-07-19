@@ -1,0 +1,23 @@
+[0.247s] Invoking command in '/root/dev_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/lslidar_msgs -- -j8 -l8
+[5.676s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[5.677s] [ 12%] Built target lslidar_msgs__cpp
+[5.678s] [ 12%] Built target ament_cmake_python_copy_lslidar_msgs
+[5.678s] [ 24%] Built target lslidar_msgs__rosidl_typesupport_c
+[5.679s] [ 36%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[5.680s] [ 48%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[5.681s] [ 60%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[5.682s] [ 72%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[5.683s] [ 84%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[5.683s] [ 84%] Built target lslidar_msgs
+[5.684s] [ 85%] Built target lslidar_msgs__py
+[5.686s] [ 96%] Built target lslidar_msgs__rosidl_generator_py
+[5.686s] [ 97%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.688s] [ 98%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[5.688s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[5.689s] running egg_info
+[5.690s] writing lslidar_msgs.egg-info/PKG-INFO
+[5.691s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[5.692s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[5.692s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[5.693s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[5.693s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg

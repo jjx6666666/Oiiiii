@@ -1,0 +1,23 @@
+[  8%] Built target origincar_base__rosidl_generator_c
+[ 11%] Built target origincar_base__cpp
+[ 20%] Built target origincar_base_node
+[ 20%] Built target ament_cmake_python_copy_origincar_base
+[ 29%] Built target origincar_base__rosidl_typesupport_introspection_c
+[ 38%] Built target origincar_base__rosidl_typesupport_c
+[ 47%] Built target origincar_base__rosidl_typesupport_introspection_cpp
+[ 55%] Built target origincar_base__rosidl_typesupport_fastrtps_c
+[ 64%] Built target origincar_base__rosidl_typesupport_cpp
+[ 73%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target origincar_base
+[ 76%] Built target origincar_base__py
+[ 82%] Built target origincar_base__rosidl_generator_py
+[100%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext
+[100%] Built target origincar_base__rosidl_typesupport_c__pyext
+running egg_info
+writing origincar_base.egg-info/PKG-INFO
+writing dependency_links to origincar_base.egg-info/dependency_links.txt
+writing top-level names to origincar_base.egg-info/top_level.txt
+reading manifest file 'origincar_base.egg-info/SOURCES.txt'
+writing manifest file 'origincar_base.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_origincar_base_egg

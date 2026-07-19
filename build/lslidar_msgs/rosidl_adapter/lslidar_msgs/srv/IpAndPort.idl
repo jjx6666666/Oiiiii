@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/IpAndPort.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "设置ip 端口  四个参数必填，默认参数则使用network_setup.yaml文件中的参数")
+    struct IpAndPort_Request {
+      string lidar_ip;
+
+      string destination_ip;
+
+      uint16 data_port;
+
+      uint16 dev_port;
+    };
+    struct IpAndPort_Response {
+      boolean result;
+    };
+  };
+};

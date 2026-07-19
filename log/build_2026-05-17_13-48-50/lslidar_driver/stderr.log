@@ -1,0 +1,7 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lslidar_driver.dir/build.make:146: CMakeFiles/lslidar_driver.dir/src/lslidar_x10_driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lslidar_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

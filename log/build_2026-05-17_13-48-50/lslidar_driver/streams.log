@@ -1,0 +1,157 @@
+[0.062s] Invoking command in '/root/dev_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /root/dev_ws/src/lslidar_ros2/lslidar_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/lslidar_driver
+[0.383s] -- The C compiler identification is GNU 11.2.0
+[0.707s] -- The CXX compiler identification is GNU 11.2.0
+[0.742s] -- Detecting C compiler ABI info
+[1.123s] -- Detecting C compiler ABI info - done
+[1.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.171s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.190s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.666s] -- Detecting CXX compile features
+[1.669s] -- Detecting CXX compile features - done
+[1.686s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.825s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.503s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.795s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.836s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.895s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.447s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.909s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.047s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.314s] -- Looking for pthread.h
+[5.697s] -- Looking for pthread.h - found
+[5.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.081s] -- Found Threads: TRUE  
+[6.419s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.609s] -- Found lslidar_msgs: 5.1.1 (/root/dev_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[6.790s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[6.885s] -- Checking for module 'eigen3'
+[6.949s] --   Found eigen3, version 3.4.0
+[7.102s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.103s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.230s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[7.315s] -- Checking for module 'flann'
+[7.387s] --   Found flann, version 1.9.1
+[7.598s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[7.599s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[7.820s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[7.866s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[8.780s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[8.781s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[8.797s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[8.858s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[8.978s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[9.097s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.691s] -- Found X11: /usr/include   
+[9.693s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[10.091s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[10.092s] -- Looking for gethostbyname
+[10.457s] -- Looking for gethostbyname - found
+[10.458s] -- Looking for connect
+[10.832s] -- Looking for connect - found
+[10.832s] -- Looking for remove
+[11.205s] -- Looking for remove - found
+[11.205s] -- Looking for shmat
+[11.576s] -- Looking for shmat - found
+[11.577s] -- Looking for IceConnectionNumber in ICE
+[11.969s] -- Looking for IceConnectionNumber in ICE - found
+[12.486s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[12.498s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[12.512s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[12.524s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[12.684s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[12.723s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[12.748s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[12.779s] -- Found utf8cpp: /usr/include/utf8cpp  
+[13.186s] -- Checking for module 'libusb-1.0'
+[13.257s] --   Found libusb-1.0, version 1.0.25
+[13.423s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[13.430s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[13.430s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.702s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[13.702s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.703s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[14.736s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.766s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.796s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.792s] -- Found Qhull version 8.0.2
+[16.821s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.815s] -- looking for PCL_COMMON
+[17.820s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[17.821s] -- looking for PCL_KDTREE
+[17.828s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[17.829s] -- looking for PCL_OCTREE
+[17.835s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[17.836s] -- looking for PCL_SEARCH
+[17.843s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[17.844s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.850s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[17.851s] -- looking for PCL_FILTERS
+[17.857s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[17.859s] -- looking for PCL_2D
+[17.860s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[17.862s] -- looking for PCL_GEOMETRY
+[17.863s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[17.864s] -- looking for PCL_IO
+[17.870s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[17.872s] -- looking for PCL_FEATURES
+[17.879s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[17.880s] -- looking for PCL_ML
+[17.886s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[17.887s] -- looking for PCL_SEGMENTATION
+[17.894s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[17.896s] -- looking for PCL_VISUALIZATION
+[17.903s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[17.904s] -- looking for PCL_SURFACE
+[17.911s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[17.912s] -- looking for PCL_REGISTRATION
+[17.918s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[17.920s] -- looking for PCL_KEYPOINTS
+[17.926s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[17.928s] -- looking for PCL_TRACKING
+[17.934s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[17.936s] -- looking for PCL_RECOGNITION
+[17.942s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[17.945s] -- looking for PCL_STEREO
+[17.951s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[17.952s] -- looking for PCL_APPS
+[17.958s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[17.962s] -- looking for PCL_IN_HAND_SCANNER
+[17.964s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[17.965s] -- looking for PCL_MODELER
+[17.966s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[17.967s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.970s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[17.971s] -- looking for PCL_OUTOFCORE
+[17.977s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[17.979s] -- looking for PCL_PEOPLE
+[17.985s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[17.991s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[18.008s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[18.889s] -- Configuring done
+[19.207s] -- Generating done
+[19.287s] -- Build files have been written to: /root/dev_ws/build/lslidar_driver
+[19.407s] Invoked command in '/root/dev_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /root/dev_ws/src/lslidar_ros2/lslidar_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/lslidar_driver
+[19.416s] Invoking command in '/root/dev_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/lslidar_driver -- -j8 -l8
+[19.655s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_ch_driver.cpp.o[0m
+[19.657s] [ 27%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lsiosr.cpp.o[0m
+[19.658s] [ 36%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_x10_driver.cpp.o[0m
+[19.659s] [ 45%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_ls_driver.cpp.o[0m
+[19.661s] [ 27%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/input.cpp.o[0m
+[19.662s] [ 54%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_device_info.cpp.o[0m
+[19.664s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_cx_driver.cpp.o[0m
+[19.689s] [ 72%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_services.cpp.o[0m
+[107.988s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[108.005s] compilation terminated.
+[108.078s] gmake[2]: *** [CMakeFiles/lslidar_driver.dir/build.make:146: CMakeFiles/lslidar_driver.dir/src/lslidar_x10_driver.cpp.o] Error 1
+[108.142s] gmake[2]: *** Waiting for unfinished jobs....
+[164.986s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lslidar_driver.dir/all] Error 2
+[164.986s] gmake: *** [Makefile:146: all] Error 2
+[165.151s] Invoked command in '/root/dev_ws/build/lslidar_driver' returned '2': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/lslidar_driver -- -j8 -l8

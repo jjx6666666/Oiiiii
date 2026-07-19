@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lslidar_msgs/msg/LslidarInformation.msg
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module msg {
+    struct LslidarInformation {
+      @verbatim (language="comment", text=
+        "雷达ip地址")
+      string lidar_ip;
+
+      @verbatim (language="comment", text=
+        "雷达目的ip地址")
+      string destination_ip;
+
+      @verbatim (language="comment", text=
+        "雷达 MAC 地址")
+      string lidar_mac_address;
+
+      @verbatim (language="comment", text=
+        "雷达目的数据端口")
+      uint16 msop_port;
+
+      @verbatim (language="comment", text=
+        "雷达目的设备端口")
+      uint16 difop_port;
+
+      @verbatim (language="comment", text=
+        "雷达序列号")
+      string lidar_serial_number;
+
+      @verbatim (language="comment", text=
+        "FPGA 2号板程序版本")
+      string fpga_board_2_program;
+
+      @verbatim (language="comment", text=
+        "FPGA 3号板程序版本")
+      string fpga_board_3_program;
+    };
+  };
+};

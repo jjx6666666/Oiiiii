@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/StandbyMode.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "1550 待机模式  0: 正常模式   1: 待机模式")
+    struct StandbyMode_Request {
+      uint8 standby_mode;
+    };
+    struct StandbyMode_Response {
+      boolean result;
+    };
+  };
+};

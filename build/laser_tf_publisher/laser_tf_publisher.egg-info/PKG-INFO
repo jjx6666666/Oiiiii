@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: laser-tf-publisher
+Version: 0.0.0
+Summary: A ROS 2 package for publishing static transform from base_footprint to laser frame
+Home-page: UNKNOWN
+Maintainer: root
+Maintainer-email: root@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

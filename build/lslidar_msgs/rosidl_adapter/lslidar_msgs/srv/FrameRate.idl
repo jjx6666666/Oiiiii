@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/FrameRate.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "1550 帧率 0: 10hz   1: 5hz   2: 2.5hz")
+    struct FrameRate_Request {
+      uint8 frame_rate;
+    };
+    struct FrameRate_Response {
+      boolean result;
+    };
+  };
+};

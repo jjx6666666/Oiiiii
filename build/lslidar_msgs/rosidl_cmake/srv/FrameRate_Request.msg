@@ -1,0 +1,2 @@
+#1550 帧率 0: 10hz   1: 5hz   2: 2.5hz
+uint8 frame_rate

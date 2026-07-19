@@ -1,0 +1,2 @@
+# 机械式 电机控制 0: 停转  1: 旋转
+uint8 motor_control

@@ -1,0 +1,21 @@
+[10.601s] Invoking command in '/root/dev_ws/src/laser_tf_publisher': PYTHONPATH=/root/dev_ws/build/laser_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_tf_publisher build --build-base /root/dev_ws/build/laser_tf_publisher/build install --record /root/dev_ws/build/laser_tf_publisher/install.log --single-version-externally-managed install_data
+[12.498s] running egg_info
+[12.503s] writing ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/PKG-INFO
+[12.505s] writing dependency_links to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/dependency_links.txt
+[12.506s] writing entry points to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/entry_points.txt
+[12.507s] writing requirements to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/requires.txt
+[12.508s] writing top-level names to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/top_level.txt
+[12.524s] reading manifest file '../../build/laser_tf_publisher/laser_tf_publisher.egg-info/SOURCES.txt'
+[12.525s] writing manifest file '../../build/laser_tf_publisher/laser_tf_publisher.egg-info/SOURCES.txt'
+[12.525s] running build
+[12.526s] running build_py
+[12.527s] running install
+[12.528s] running install_lib
+[12.545s] running install_data
+[12.545s] running install_egg_info
+[12.547s] removing '/root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[12.549s] Copying ../../build/laser_tf_publisher/laser_tf_publisher.egg-info to /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher-0.0.0-py3.10.egg-info
+[12.554s] running install_scripts
+[12.693s] Installing static_laser_tf_broadcaster script to /root/dev_ws/install/laser_tf_publisher/lib/laser_tf_publisher
+[12.695s] writing list of installed files to '/root/dev_ws/build/laser_tf_publisher/install.log'
+[12.941s] Invoked command in '/root/dev_ws/src/laser_tf_publisher' returned '0': PYTHONPATH=/root/dev_ws/build/laser_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_tf_publisher build --build-base /root/dev_ws/build/laser_tf_publisher/build install --record /root/dev_ws/build/laser_tf_publisher/install.log --single-version-externally-managed install_data

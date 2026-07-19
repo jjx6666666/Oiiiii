@@ -1,0 +1,13 @@
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarInformation.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/AngleDistortionCorrection.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/FrameRate.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/InvalidData.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/IpAndPort.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorControl.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorSpeed.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/PowerControl.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/RfdRemoval.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/StandbyMode.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/TailRemoval.idl
+/root/dev_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/TimeMode.idl

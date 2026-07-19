@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/PowerControl.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "机械式 0: 下电   1: 上电")
+    struct PowerControl_Request {
+      uint8 power_control;
+    };
+    struct PowerControl_Response {
+      boolean result;
+    };
+  };
+};

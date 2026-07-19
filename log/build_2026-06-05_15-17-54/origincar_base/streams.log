@@ -1,0 +1,24 @@
+[0.110s] Invoking command in '/root/dev_ws/build/origincar_base': CMAKE_PREFIX_PATH=/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/origincar_base -- -j8 -l8
+[0.442s] [  8%] Built target origincar_base__rosidl_generator_c
+[0.478s] [ 11%] Built target origincar_base__cpp
+[0.532s] [ 20%] Built target origincar_base_node
+[0.546s] [ 20%] Built target ament_cmake_python_copy_origincar_base
+[0.651s] [ 29%] Built target origincar_base__rosidl_typesupport_introspection_c
+[0.682s] [ 38%] Built target origincar_base__rosidl_typesupport_c
+[0.691s] [ 47%] Built target origincar_base__rosidl_typesupport_introspection_cpp
+[0.707s] [ 55%] Built target origincar_base__rosidl_typesupport_fastrtps_c
+[0.711s] [ 64%] Built target origincar_base__rosidl_typesupport_cpp
+[0.714s] [ 73%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp
+[0.813s] [ 73%] Built target origincar_base
+[0.922s] [ 76%] Built target origincar_base__py
+[1.029s] [ 82%] Built target origincar_base__rosidl_generator_py
+[1.139s] [100%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext
+[1.140s] [100%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext
+[1.140s] [100%] Built target origincar_base__rosidl_typesupport_c__pyext
+[2.457s] running egg_info
+[2.461s] writing origincar_base.egg-info/PKG-INFO
+[2.463s] writing dependency_links to origincar_base.egg-info/dependency_links.txt
+[2.464s] writing top-level names to origincar_base.egg-info/top_level.txt
+[2.476s] reading manifest file 'origincar_base.egg-info/SOURCES.txt'
+[2.480s] writing manifest file 'origincar_base.egg-info/SOURCES.txt'
+[2.682s] [100%] Built target ament_cmake_python_build_origincar_base_egg

@@ -1,0 +1,23 @@
+[0.225s] Invoking command in '/root/dev_ws/build/origincar_msg': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_msg -- -j8 -l8
+[5.643s] [ 10%] Built target origincar_msg__rosidl_generator_c
+[5.648s] [ 12%] Built target origincar_msg__cpp
+[5.648s] [ 12%] Built target ament_cmake_python_copy_origincar_msg
+[5.649s] [ 23%] Built target origincar_msg__rosidl_typesupport_fastrtps_c
+[5.650s] [ 33%] Built target origincar_msg__rosidl_typesupport_introspection_c
+[5.650s] [ 43%] Built target origincar_msg__rosidl_typesupport_introspection_cpp
+[5.651s] [ 53%] Built target origincar_msg__rosidl_typesupport_c
+[5.652s] [ 64%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp
+[5.653s] [ 74%] Built target origincar_msg__rosidl_typesupport_cpp
+[5.654s] [ 74%] Built target origincar_msg
+[5.654s] [ 76%] Built target origincar_msg__py
+[5.655s] [ 84%] Built target origincar_msg__rosidl_generator_py
+[5.655s] [ 89%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext
+[5.656s] [ 94%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.656s] [100%] Built target origincar_msg__rosidl_typesupport_c__pyext
+[5.657s] running egg_info
+[5.657s] writing origincar_msg.egg-info/PKG-INFO
+[5.658s] writing dependency_links to origincar_msg.egg-info/dependency_links.txt
+[5.658s] writing top-level names to origincar_msg.egg-info/top_level.txt
+[5.659s] reading manifest file 'origincar_msg.egg-info/SOURCES.txt'
+[5.662s] writing manifest file 'origincar_msg.egg-info/SOURCES.txt'
+[5.662s] [100%] Built target ament_cmake_python_build_origincar_msg_egg

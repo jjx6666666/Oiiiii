@@ -1,0 +1,40 @@
+[0.063s] Invoking command in '/root/dev_ws/build/hobot_nav2': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/hobot_nav2 -- -j8 -l8
+[0.377s] Invoked command in '/root/dev_ws/build/hobot_nav2' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/hobot_nav2 -- -j8 -l8
+[0.424s] Invoking command in '/root/dev_ws/build/hobot_nav2': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/hobot_nav2
+[0.460s] -- Install configuration: ""
+[0.462s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch
+[0.463s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/hobot_nav2_bringup.launch.py
+[0.464s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/bringup_launch_noremap.py
+[0.465s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/hobot_nav2_bringup_noremapping.launch.py
+[0.466s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/__pycache__
+[0.466s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/__pycache__/bringup_launch_noremap.cpython-310.pyc
+[0.470s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/launch/__pycache__/hobot_nav2_bringup.launch.cpython-310.pyc
+[0.471s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/param
+[0.472s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/param/hobot_nav2.yaml
+[0.473s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps
+[0.474s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/row_1.pgm
+[0.475s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_2.yaml
+[0.477s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1_1.yaml
+[0.478s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/row_1.yaml
+[0.479s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1.pgm
+[0.480s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/keepout_mask.pgm
+[0.481s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1.yaml
+[0.484s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_1_1.pgm
+[0.484s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/final_2.pgm
+[0.485s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/maps/keepout_filter_mask.yaml
+[0.486s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/package_run_dependencies/hobot_nav2
+[0.487s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/parent_prefix_path/hobot_nav2
+[0.488s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/ament_prefix_path.sh
+[0.488s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/ament_prefix_path.dsv
+[0.489s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/path.sh
+[0.489s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/environment/path.dsv
+[0.490s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.bash
+[0.490s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.sh
+[0.491s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.zsh
+[0.491s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/local_setup.dsv
+[0.491s] -- Installing: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/package.dsv
+[0.492s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/ament_index/resource_index/packages/hobot_nav2
+[0.492s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/cmake/hobot_nav2Config.cmake
+[0.493s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/cmake/hobot_nav2Config-version.cmake
+[0.494s] -- Up-to-date: /root/dev_ws/install/hobot_nav2/share/hobot_nav2/package.xml
+[0.517s] Invoked command in '/root/dev_ws/build/hobot_nav2' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/hobot_nav2

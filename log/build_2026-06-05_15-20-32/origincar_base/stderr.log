@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:391 (file):
+  file INSTALL cannot find
+  "/root/dev_ws/src/origincar/origincar_base/config": No such file or
+  directory.
+
+

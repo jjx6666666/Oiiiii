@@ -1,0 +1,4 @@
+[  2%] Built target origincar_base__cpp
+[ 11%] Built target origincar_base__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_origincar_base
+[ 20%] Built target origincar_base_node

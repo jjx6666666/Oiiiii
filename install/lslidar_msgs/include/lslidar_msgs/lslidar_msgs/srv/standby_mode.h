@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from lslidar_msgs:srv/StandbyMode.idl
+// generated code does not contain a copyright notice
+
+#ifndef LSLIDAR_MSGS__SRV__STANDBY_MODE_H_
+#define LSLIDAR_MSGS__SRV__STANDBY_MODE_H_
+
+#include "lslidar_msgs/srv/detail/standby_mode__struct.h"
+#include "lslidar_msgs/srv/detail/standby_mode__functions.h"
+#include "lslidar_msgs/srv/detail/standby_mode__type_support.h"
+
+#endif  // LSLIDAR_MSGS__SRV__STANDBY_MODE_H_

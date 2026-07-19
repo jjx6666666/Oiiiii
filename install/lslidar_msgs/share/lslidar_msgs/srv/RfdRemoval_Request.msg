@@ -1,0 +1,2 @@
+# 机械式 去除雨雾尘  0-3
+uint8 rfd_removal

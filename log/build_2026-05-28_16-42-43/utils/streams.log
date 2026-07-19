@@ -1,0 +1,22 @@
+[0.198s] Invoking command in '/root/dev_ws/build/utils': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/utils -- -j8 -l8
+[0.960s] [100%] Built target image_transport_node
+[1.018s] Invoked command in '/root/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/utils -- -j8 -l8
+[1.029s] Invoking command in '/root/dev_ws/build/utils': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/utils
+[1.063s] -- Install configuration: ""
+[1.072s] -- Up-to-date: /root/dev_ws/install/utils/lib/utils/image_transport_node
+[1.078s] -- Up-to-date: /root/dev_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[1.080s] -- Up-to-date: /root/dev_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[1.082s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[1.083s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[1.085s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/environment/path.sh
+[1.086s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/environment/path.dsv
+[1.086s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/local_setup.bash
+[1.087s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/local_setup.sh
+[1.088s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/local_setup.zsh
+[1.089s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/local_setup.dsv
+[1.090s] -- Installing: /root/dev_ws/install/utils/share/utils/package.dsv
+[1.091s] -- Up-to-date: /root/dev_ws/install/utils/share/ament_index/resource_index/packages/utils
+[1.092s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[1.092s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[1.093s] -- Up-to-date: /root/dev_ws/install/utils/share/utils/package.xml
+[1.115s] Invoked command in '/root/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/utils

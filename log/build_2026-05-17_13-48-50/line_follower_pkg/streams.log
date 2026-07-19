@@ -1,0 +1,37 @@
+[7.988s] Invoking command in '/root/dev_ws/src/origincar/line_follower_pkg': PYTHONPATH=/root/dev_ws/build/line_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/line_follower_pkg build --build-base /root/dev_ws/build/line_follower_pkg/build install --record /root/dev_ws/build/line_follower_pkg/install.log --single-version-externally-managed install_data
+[10.351s] running egg_info
+[10.369s] creating ../../../build/line_follower_pkg/line_follower_pkg.egg-info
+[10.370s] writing ../../../build/line_follower_pkg/line_follower_pkg.egg-info/PKG-INFO
+[10.370s] writing dependency_links to ../../../build/line_follower_pkg/line_follower_pkg.egg-info/dependency_links.txt
+[10.371s] writing entry points to ../../../build/line_follower_pkg/line_follower_pkg.egg-info/entry_points.txt
+[10.372s] writing requirements to ../../../build/line_follower_pkg/line_follower_pkg.egg-info/requires.txt
+[10.373s] writing top-level names to ../../../build/line_follower_pkg/line_follower_pkg.egg-info/top_level.txt
+[10.373s] writing manifest file '../../../build/line_follower_pkg/line_follower_pkg.egg-info/SOURCES.txt'
+[10.378s] reading manifest file '../../../build/line_follower_pkg/line_follower_pkg.egg-info/SOURCES.txt'
+[10.385s] writing manifest file '../../../build/line_follower_pkg/line_follower_pkg.egg-info/SOURCES.txt'
+[10.386s] running build
+[10.387s] running build_py
+[10.389s] creating /root/dev_ws/build/line_follower_pkg/build
+[10.390s] creating /root/dev_ws/build/line_follower_pkg/build/lib
+[10.391s] creating /root/dev_ws/build/line_follower_pkg/build/lib/line_follower_pkg
+[10.392s] copying line_follower_pkg/__init__.py -> /root/dev_ws/build/line_follower_pkg/build/lib/line_follower_pkg
+[10.393s] copying line_follower_pkg/line_follower_node.py -> /root/dev_ws/build/line_follower_pkg/build/lib/line_follower_pkg
+[10.395s] running install
+[10.397s] running install_lib
+[10.404s] creating /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg
+[10.405s] copying /root/dev_ws/build/line_follower_pkg/build/lib/line_follower_pkg/__init__.py -> /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg
+[10.406s] copying /root/dev_ws/build/line_follower_pkg/build/lib/line_follower_pkg/line_follower_node.py -> /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg
+[10.410s] byte-compiling /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg/__init__.py to __init__.cpython-310.pyc
+[10.411s] byte-compiling /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg/line_follower_node.py to line_follower_node.cpython-310.pyc
+[10.416s] running install_data
+[10.417s] creating /root/dev_ws/install/line_follower_pkg/share/ament_index
+[10.418s] creating /root/dev_ws/install/line_follower_pkg/share/ament_index/resource_index
+[10.419s] creating /root/dev_ws/install/line_follower_pkg/share/ament_index/resource_index/packages
+[10.420s] copying resource/line_follower_pkg -> /root/dev_ws/install/line_follower_pkg/share/ament_index/resource_index/packages
+[10.420s] copying package.xml -> /root/dev_ws/install/line_follower_pkg/share/line_follower_pkg
+[10.421s] running install_egg_info
+[10.435s] Copying ../../../build/line_follower_pkg/line_follower_pkg.egg-info to /root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line_follower_pkg-0.0.1-py3.10.egg-info
+[10.441s] running install_scripts
+[10.584s] Installing line_follower script to /root/dev_ws/install/line_follower_pkg/lib/line_follower_pkg
+[10.587s] writing list of installed files to '/root/dev_ws/build/line_follower_pkg/install.log'
+[10.864s] Invoked command in '/root/dev_ws/src/origincar/line_follower_pkg' returned '0': PYTHONPATH=/root/dev_ws/build/line_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/line_follower_pkg build --build-base /root/dev_ws/build/line_follower_pkg/build install --record /root/dev_ws/build/line_follower_pkg/install.log --single-version-externally-managed install_data

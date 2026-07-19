@@ -1,0 +1,18 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:msg/LslidarInformation.msg",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:msg/LslidarPacket.msg",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/AngleDistortionCorrection.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/FrameRate.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/InvalidData.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/IpAndPort.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/MotorControl.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/MotorSpeed.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/PowerControl.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/RfdRemoval.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/StandbyMode.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/TailRemoval.srv",
+    "/root/dev_ws/src/lslidar_ros2/lslidar_msgs/lslidar_msgs:srv/TimeMode.srv"
+  ]
+}

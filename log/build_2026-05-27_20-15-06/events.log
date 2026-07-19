@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.001085] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.002074] (-) JobUnselected: {'identifier': 'hobot_nav2'}
+[0.002724] (-) JobUnselected: {'identifier': 'laser_tf_publisher'}
+[0.003407] (-) JobUnselected: {'identifier': 'line_follower_pkg'}
+[0.003644] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.004032] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.004227] (-) JobUnselected: {'identifier': 'origincar_bringup'}
+[0.004366] (-) JobUnselected: {'identifier': 'origincar_description'}
+[0.004498] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.004669] (-) JobUnselected: {'identifier': 'serial'}
+[0.004800] (-) JobUnselected: {'identifier': 'utils'}
+[0.004932] (origincar_base) JobQueued: {'identifier': 'origincar_base', 'dependencies': OrderedDict([('ackermann_msgs', '/root/dev_ws/install/ackermann_msgs'), ('origincar_description', '/root/dev_ws/install/origincar_description'), ('origincar_msg', '/root/dev_ws/install/origincar_msg'), ('serial', '/root/dev_ws/install/serial')])}
+[0.005093] (origincar_base) JobStarted: {'identifier': 'origincar_base'}
+[0.098871] (-) TimerEvent: {}
+[0.112028] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'cmake'}
+[0.117335] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'build'}
+[0.122476] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_base', '--', '-j8', '-l8'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.0.100 60902 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.npm-global/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '192.168.0.100 60902 192.168.0.102 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/root/dev_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages:/root/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.199089] (-) TimerEvent: {}
+[0.300151] (-) TimerEvent: {}
+[0.401063] (-) TimerEvent: {}
+[0.502085] (-) TimerEvent: {}
+[0.603045] (-) TimerEvent: {}
+[0.652015] (origincar_base) StdoutLine: {'line': b'[  2%] Built target origincar_base__cpp\n'}
+[0.683196] (origincar_base) StdoutLine: {'line': b'[ 11%] Built target origincar_base__rosidl_generator_c\n'}
+[0.699817] (origincar_base) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_origincar_base\n'}
+[0.703265] (-) TimerEvent: {}
+[0.792434] (origincar_base) StdoutLine: {'line': b'[ 29%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp\n'}
+[0.797100] (origincar_base) StdoutLine: {'line': b'[ 29%] Built target origincar_base__rosidl_typesupport_cpp\n'}
+[0.799535] (origincar_base) StdoutLine: {'line': b'[ 38%] Built target origincar_base__rosidl_typesupport_introspection_cpp\n'}
+[0.803484] (-) TimerEvent: {}
+[0.806375] (origincar_base) StdoutLine: {'line': b'[ 47%] Built target origincar_base__rosidl_typesupport_introspection_c\n'}
+[0.810853] (origincar_base) StdoutLine: {'line': b'[ 55%] Built target origincar_base__rosidl_typesupport_fastrtps_c\n'}
+[0.842086] (origincar_base) StdoutLine: {'line': b'[ 64%] Built target origincar_base__rosidl_typesupport_c\n'}
+[0.846250] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base_node\n'}
+[0.903670] (-) TimerEvent: {}
+[0.937607] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base\n'}
+[1.003847] (-) TimerEvent: {}
+[1.034629] (origincar_base) StdoutLine: {'line': b'[ 76%] Built target origincar_base__py\n'}
+[1.104031] (-) TimerEvent: {}
+[1.155441] (origincar_base) StdoutLine: {'line': b'[ 82%] Built target origincar_base__rosidl_generator_py\n'}
+[1.204234] (-) TimerEvent: {}
+[1.265637] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.266514] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base__rosidl_typesupport_c__pyext\n'}
+[1.267166] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext\n'}
+[1.304414] (-) TimerEvent: {}
+[1.405204] (-) TimerEvent: {}
+[1.505981] (-) TimerEvent: {}
+[1.606736] (-) TimerEvent: {}
+[1.707478] (-) TimerEvent: {}
+[1.808304] (-) TimerEvent: {}
+[1.909133] (-) TimerEvent: {}
+[2.009917] (-) TimerEvent: {}
+[2.110696] (-) TimerEvent: {}
+[2.211468] (-) TimerEvent: {}
+[2.312225] (-) TimerEvent: {}
+[2.412949] (-) TimerEvent: {}
+[2.445221] (origincar_base) StdoutLine: {'line': b'running egg_info\n'}
+[2.449368] (origincar_base) StdoutLine: {'line': b'writing origincar_base.egg-info/PKG-INFO\n'}
+[2.451207] (origincar_base) StdoutLine: {'line': b'writing dependency_links to origincar_base.egg-info/dependency_links.txt\n'}
+[2.452314] (origincar_base) StdoutLine: {'line': b'writing top-level names to origincar_base.egg-info/top_level.txt\n'}
+[2.466451] (origincar_base) StdoutLine: {'line': b"reading manifest file 'origincar_base.egg-info/SOURCES.txt'\n"}
+[2.470108] (origincar_base) StdoutLine: {'line': b"writing manifest file 'origincar_base.egg-info/SOURCES.txt'\n"}
+[2.513130] (-) TimerEvent: {}
+[2.613961] (-) TimerEvent: {}
+[2.670795] (origincar_base) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_origincar_base_egg\n'}
+[2.714168] (-) TimerEvent: {}
+[2.742164] (origincar_base) CommandEnded: {'returncode': 0}
+[2.747286] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'install'}
+[2.814049] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_base'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.0.100 60902 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.npm-global/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '192.168.0.100 60902 192.168.0.102 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/root/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/root/dev_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/root/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages:/root/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[2.820983] (-) TimerEvent: {}
+[2.859862] (origincar_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.861378] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/rosidl_interfaces/origincar_base\n'}
+[2.862460] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.863086] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.863618] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/position.h\n'}
+[2.864214] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.864867] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.865433] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__type_support.h\n'}
+[2.865902] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__functions.h\n'}
+[2.866350] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__struct.h\n'}
+[2.866778] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__functions.c\n'}
+[2.867283] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.sh\n'}
+[2.867846] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.dsv\n'}
+[2.868460] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so\n'}
+[2.868914] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.869415] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.869870] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.870589] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.871303] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[2.871949] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so\n'}
+[2.872424] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.872943] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.873425] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/position.hpp\n'}
+[2.874189] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.874649] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__struct.hpp\n'}
+[2.875095] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__traits.hpp\n'}
+[2.875630] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__builder.hpp\n'}
+[2.876157] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.876603] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.877127] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.877738] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.878316] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/dds_fastrtps\n'}
+[2.878782] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.879298] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.879744] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.880175] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.880675] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.881132] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.881754] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__type_support.c\n'}
+[2.882336] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[2.882870] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so\n'}
+[2.883388] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so\n'}
+[2.883896] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base\n'}
+[2.884403] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg\n'}
+[2.884919] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail\n'}
+[2.885440] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.886578] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/origincar_base/msg/detail/position__type_support.cpp\n'}
+[2.887033] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so\n'}
+[2.887464] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so\n'}
+[2.887885] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.sh\n'}
+[2.888336] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.dsv\n'}
+[2.888752] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base-0.0.0-py3.10.egg-info\n'}
+[2.889171] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.889593] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.890021] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.890453] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.890876] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base\n'}
+[2.891295] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/_origincar_base_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.891714] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/msg\n'}
+[2.892192] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/msg/_position_s.c\n'}
+[2.892621] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/msg/_position.py\n'}
+[2.893059] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/msg/__init__.py\n'}
+[2.893555] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/liborigincar_base__rosidl_generator_py.so\n'}
+[2.893980] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.894406] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/_origincar_base_s.ep.rosidl_typesupport_c.c\n'}
+[2.894826] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/__init__.py\n'}
+[2.895247] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/_origincar_base_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.895667] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.896091] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.921139] (-) TimerEvent: {}
+[3.021942] (-) TimerEvent: {}
+[3.101997] (origincar_base) StdoutLine: {'line': b"Listing '/root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base'...\n"}
+[3.102767] (origincar_base) StdoutLine: {'line': b"Listing '/root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/msg'...\n"}
+[3.122098] (-) TimerEvent: {}
+[3.137301] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.138991] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.140759] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.142598] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_generator_py.so\n'}
+[3.143365] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.idl\n'}
+[3.144026] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.msg\n'}
+[3.144641] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/origincar_base/cmd_vel_to_ackermann_drive.py\n'}
+[3.145898] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/origincar_base/origincar_base_node\n'}
+[3.146611] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch\n'}
+[3.147251] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/origincar_bringup.launch.py\n'}
+[3.147876] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/robot_mode_description.launch.py\n'}
+[3.148445] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/ekf.launch.py\n'}
+[3.148987] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/base_serial.launch.py\n'}
+[3.149508] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__\n'}
+[3.150064] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__/testtwo.launch.cpython-38.pyc\n'}
+[3.150700] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config\n'}
+[3.151343] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/imu.yaml\n'}
+[3.151950] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/ekf.yaml\n'}
+[3.152427] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/package_run_dependencies/origincar_base\n'}
+[3.152934] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/parent_prefix_path/origincar_base\n'}
+[3.153392] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.sh\n'}
+[3.153842] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.dsv\n'}
+[3.154311] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.sh\n'}
+[3.154735] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.dsv\n'}
+[3.155161] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.bash\n'}
+[3.156196] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.sh\n'}
+[3.157271] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.zsh\n'}
+[3.158519] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.dsv\n'}
+[3.159507] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/share/origincar_base/package.dsv\n'}
+[3.160612] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/packages/origincar_base\n'}
+[3.161594] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_generator_cExport.cmake\n'}
+[3.162938] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.163960] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.165092] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.166016] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_generator_cppExport.cmake\n'}
+[3.166551] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.167235] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.167781] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.168313] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.168998] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport.cmake\n'}
+[3.169531] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.170059] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.170764] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.171321] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport.cmake\n'}
+[3.171850] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.172666] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_generator_pyExport.cmake\n'}
+[3.173429] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/export_origincar_base__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.174189] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake-extras.cmake\n'}
+[3.174932] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.175475] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.175990] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.176432] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.176856] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.177278] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.177698] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig.cmake\n'}
+[3.178116] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig-version.cmake\n'}
+[3.178533] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/package.xml\n'}
+[3.184246] (origincar_base) CommandEnded: {'returncode': 0}
+[3.222269] (-) TimerEvent: {}
+[3.324312] (-) TimerEvent: {}
+[3.340788] (origincar_base) JobEnded: {'identifier': 'origincar_base', 'rc': 0}
+[3.343771] (-) EventReactorShutdown: {}

@@ -1,0 +1,124 @@
+import os
+from pathlib import Path
+import launch
+from launch.actions import SetEnvironmentVariable, TimerAction
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch.actions import (DeclareLaunchArgument, GroupAction,
+                            IncludeLaunchDescription, SetEnvironmentVariable)
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
+from launch.conditions import UnlessCondition
+
+def generate_launch_description():
+    # ================= 配置区域 =================
+    
+    # 1. 获取包路径
+    pkg_share = get_package_share_directory('origincar_base')
+    
+    # 2. 【关键】手动指定 URDF 文件名
+    # 请在下面填入你实际的 URDF 文件名（区分大小写）
+    # 如果你用的是 xacro 文件，请在文件名后加上 .xacro
+    URDF_FILE_NAME = 'origincar.urdf'  
+    
+    # 3. 构建可能的路径（优先查源码目录，适合调试；正式发布时应去掉）
+    # 假设你的工作空间是 ~/dev_ws
+    src_path = os.path.join('/root/dev_ws/src/origincar/origincar_description/urdf', URDF_FILE_NAME)
+    
+    # ================= 检查文件是否存在 =================
+    if not os.path.exists(src_path):
+        raise FileNotFoundError(
+            f"❌ 找不到 URDF 文件！\n"
+            f"尝试查找的路径: {src_path}\n"
+            f"请确认：\n"
+            f"1. 文件名是否正确？（当前设置为: {URDF_FILE_NAME}）\n"
+            f"2. 文件是否在 src/origincar_base/urdf/ 目录下？\n"
+            f"3. 如果是 xacro 文件，请将上面 URDF_FILE_NAME 变量改为对应的名字。"
+        )
+    else:
+        print(f"✅ 成功找到 URDF 文件: {src_path}")
+
+    # ================= 读取文件内容 =================
+    try:
+        with open(src_path, 'r') as f:
+            robot_description_content = f.read()
+    except Exception as e:
+        raise RuntimeError(f"读取 URDF 文件失败: {e}")
+
+    # ================= 节点配置 =================
+    
+    carto_slam = LaunchConfiguration('carto_slam', default='false')
+    carto_slam_dec = DeclareLaunchArgument('carto_slam', default_value='false')
+            
+    origincar_base = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(pkg_share, 'launch', 'base_serial.launch.py')),
+            launch_arguments={'akmcar': 'true'}.items(),
+    )
+
+    # 【移除】不再包含 choose_car，改为直接在这里配置状态发布器
+    
+    base_to_link = Node(
+            package='tf2_ros', 
+            executable='static_transform_publisher', 
+            name='base_to_link',
+            arguments=['0', '0', '0','0', '0','0','base_footprint','base_link']   # ↑ (0.08, 0, 0): base_footprint 偏后 8cm 跟 base_link 错开；改 0 让 base_footprint = base_link = 车体中心,
+    )
+    base_to_gyro = Node(
+            package='tf2_ros', 
+            executable='static_transform_publisher', 
+            name='base_to_gyro',
+            arguments=['0', '0', '0','0', '0','0','base_footprint','gyro_link'],
+    )
+    
+    link_to_laser = Node(
+            package='tf2_ros', 
+            executable='static_transform_publisher', 
+            name='link_to_laser',
+            arguments=['0.05', '0', '0','0', '0','0','base_link','laser'],
+    )
+
+    imu_filter_node = Node(
+        package='imu_filter_madgwick',
+        executable='imu_filter_madgwick_node',
+        parameters=[{'use_sim_time': False}]
+    )
+    
+    robot_ekf = Node(
+        condition=UnlessCondition(carto_slam),
+        package='robot_localization', 
+        executable='ekf_node', 
+        parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml')],
+        remappings=[("odometry/filtered", "odom_combined")]
+    )
+                              
+    # 核心修复：robot_state_publisher
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': robot_description_content}]
+    )
+
+    # 核心修复：joint_state_publisher
+    joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        parameters=[{'robot_description': robot_description_content}]
+    )
+
+    ld = LaunchDescription()
+
+    ld.add_action(carto_slam_dec)
+    ld.add_action(origincar_base)
+    ld.add_action(base_to_link)
+    ld.add_action(base_to_gyro)
+    ld.add_action(link_to_laser)
+    
+    # 按顺序启动，确保数据准备好
+    ld.add_action(robot_state_publisher_node)
+    ld.add_action(joint_state_publisher_node)
+    
+    ld.add_action(imu_filter_node)
+    ld.add_action(robot_ekf)
+
+    return ld

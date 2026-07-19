@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/MotorSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "机械式 905 频率设置: 5 10 20")
+    struct MotorSpeed_Request {
+      uint8 motor_speed;
+    };
+    struct MotorSpeed_Response {
+      boolean result;
+    };
+  };
+};

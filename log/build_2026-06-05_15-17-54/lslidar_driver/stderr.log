@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:74 (file):
+  file INSTALL cannot find
+  "/root/dev_ws/src/lslidar_ros2/lslidar_driver/lslidar_driver/config": No
+  such file or directory.
+
+[0m

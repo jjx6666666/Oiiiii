@@ -1,0 +1,33 @@
+[0.248s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/serial -- -j8 -l8
+[4.558s] [100%] Built target serial
+[4.593s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/serial -- -j8 -l8
+[4.602s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/serial
+[4.778s] -- Install configuration: ""
+[4.779s] -- Up-to-date: /root/dev_ws/install/serial/lib/libserial.a
+[4.780s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.sh
+[4.781s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[4.782s] -- Up-to-date: /root/dev_ws/install/serial/include/serial
+[4.783s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl
+[4.783s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/unix.h
+[4.785s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/win.h
+[4.785s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/serial.h
+[4.787s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/v8stdint.h
+[4.787s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.792s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.793s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.794s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.795s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.sh
+[4.796s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.dsv
+[4.797s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.bash
+[4.798s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.sh
+[4.799s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.zsh
+[4.800s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.dsv
+[4.801s] -- Installing: /root/dev_ws/install/serial/share/serial/package.dsv
+[4.802s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.803s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.804s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.805s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.805s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.806s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.807s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/package.xml
+[5.742s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/serial

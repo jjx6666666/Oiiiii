@@ -1,0 +1,37 @@
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:[m[K In member function ‘[01m[Kvoid origincar_base::Akm_Cmd_Vel_Callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:66:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   66 |       steering = -0.0273[01;31m[K}[m[K;  // 临时关闭直行补偿，做基准对比
+      |                         [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:[m[K At global scope:
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransition[m[K’ does not name a type
+   68 |     [01;31m[Ktransition[m[K = steering * 1000 / 2;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+   70 |     [01;31m[KSend_Data[m[K.tx[8] = transition;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KSEND_DATA[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+   71 |     [01;31m[KSend_Data[m[K.tx[7] = transition >> 8;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KSEND_DATA[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+   72 |     [01;31m[KSend_Data[m[K.tx[9]=Check_Sum(9,SEND_DATA_CHECK);
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KSEND_DATA[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+   73 |     [01;31m[KSend_Data[m[K.tx[10]=FRAME_TAIL;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KSEND_DATA[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:75:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   75 |     [01;31m[Ktry[m[K {
+      |     [01;31m[K^~~[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:77:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   77 |     } [01;31m[Kcatch[m[K (serial::IOException& e) {
+      |       [01;31m[K^~~~~[m[K
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:80:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   80 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/origincar_base_node.dir/build.make:76: CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/origincar_base_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

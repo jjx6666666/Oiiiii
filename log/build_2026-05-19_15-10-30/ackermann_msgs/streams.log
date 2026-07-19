@@ -1,0 +1,23 @@
+[0.262s] Invoking command in '/root/dev_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/ackermann_msgs -- -j8 -l8
+[5.681s] [ 10%] Built target ackermann_msgs__rosidl_generator_c
+[5.684s] [ 12%] Built target ackermann_msgs__cpp
+[5.686s] [ 12%] Built target ament_cmake_python_copy_ackermann_msgs
+[5.689s] [ 23%] Built target ackermann_msgs__rosidl_typesupport_c
+[5.690s] [ 33%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[5.691s] [ 53%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[5.693s] [ 64%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[5.695s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[5.696s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[5.698s] [ 74%] Built target ackermann_msgs
+[5.700s] [ 76%] Built target ackermann_msgs__py
+[5.702s] [ 84%] Built target ackermann_msgs__rosidl_generator_py
+[5.704s] [ 89%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.705s] [ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[5.708s] [100%] Built target ackermann_msgs__rosidl_typesupport_c__pyext
+[5.709s] running egg_info
+[5.709s] writing ackermann_msgs.egg-info/PKG-INFO
+[5.711s] writing dependency_links to ackermann_msgs.egg-info/dependency_links.txt
+[5.711s] writing top-level names to ackermann_msgs.egg-info/top_level.txt
+[5.712s] reading manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[5.713s] writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[5.714s] [100%] Built target ament_cmake_python_build_ackermann_msgs_egg

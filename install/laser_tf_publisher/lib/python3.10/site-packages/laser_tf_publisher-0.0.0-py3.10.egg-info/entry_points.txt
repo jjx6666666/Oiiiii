@@ -1,0 +1,3 @@
+[console_scripts]
+static_laser_tf_broadcaster = laser_tf_publisher.static_tf_broadcaster:main
+

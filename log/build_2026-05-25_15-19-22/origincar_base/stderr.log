@@ -1,0 +1,5 @@
+failed to create symbolic link '/root/dev_ws/build/origincar_base/ament_cmake_python/origincar_base/origincar_base' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_origincar_base.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_origincar_base] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_origincar_base.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

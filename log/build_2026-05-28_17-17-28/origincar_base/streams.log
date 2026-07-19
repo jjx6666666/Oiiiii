@@ -1,0 +1,63 @@
+[0.119s] Invoking command in '/root/dev_ws/build/origincar_base': CMAKE_PREFIX_PATH=/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/origincar_base -- -j8 -l8
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target origincar_base_node[0m
+[0.479s] [  2%] Built target origincar_base__cpp
+[0.503s] [ 11%] Built target origincar_base__rosidl_generator_c
+[0.547s] [ 11%] Built target ament_cmake_python_copy_origincar_base
+[0.643s] [ 20%] Built target origincar_base__rosidl_typesupport_introspection_cpp
+[0.665s] [ 29%] Built target origincar_base__rosidl_typesupport_introspection_c
+[0.674s] [ 38%] Built target origincar_base__rosidl_typesupport_cpp
+[0.686s] [ 47%] Built target origincar_base__rosidl_typesupport_fastrtps_c
+[0.690s] [ 55%] Built target origincar_base__rosidl_typesupport_c
+[0.697s] [ 64%] [32mBuilding CXX object CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o[0m
+[0.698s] [ 67%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp
+[0.809s] [ 67%] Built target origincar_base
+[0.922s] [ 70%] Built target origincar_base__py
+[1.066s] [ 76%] Built target origincar_base__rosidl_generator_py
+[1.197s] [ 88%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext
+[1.197s] [ 88%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext
+[1.203s] [ 94%] Built target origincar_base__rosidl_typesupport_c__pyext
+[2.605s] running egg_info
+[2.610s] writing origincar_base.egg-info/PKG-INFO
+[2.612s] writing dependency_links to origincar_base.egg-info/dependency_links.txt
+[2.613s] writing top-level names to origincar_base.egg-info/top_level.txt
+[2.628s] reading manifest file 'origincar_base.egg-info/SOURCES.txt'
+[2.633s] writing manifest file 'origincar_base.egg-info/SOURCES.txt'
+[2.861s] [ 94%] Built target ament_cmake_python_build_origincar_base_egg
+[17.362s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:[m[K In member function ‘[01m[Kvoid origincar_base::Akm_Cmd_Vel_Callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[17.363s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:66:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[17.363s]    66 |       steering = -0.0273[01;31m[K}[m[K;  // 临时关闭直行补偿，做基准对比
+[17.364s]       |                         [01;31m[K^[m[K
+[17.364s]       |                         [32m[K;[m[K
+[17.376s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:[m[K At global scope:
+[17.377s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransition[m[K’ does not name a type
+[17.377s]    68 |     [01;31m[Ktransition[m[K = steering * 1000 / 2;
+[17.378s]       |     [01;31m[K^~~~~~~~~~[m[K
+[17.388s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+[17.389s]    70 |     [01;31m[KSend_Data[m[K.tx[8] = transition;
+[17.389s]       |     [01;31m[K^~~~~~~~~[m[K
+[17.390s]       |     [32m[KSEND_DATA[m[K
+[17.400s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+[17.400s]    71 |     [01;31m[KSend_Data[m[K.tx[7] = transition >> 8;
+[17.401s]       |     [01;31m[K^~~~~~~~~[m[K
+[17.401s]       |     [32m[KSEND_DATA[m[K
+[17.411s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+[17.412s]    72 |     [01;31m[KSend_Data[m[K.tx[9]=Check_Sum(9,SEND_DATA_CHECK);
+[17.413s]       |     [01;31m[K^~~~~~~~~[m[K
+[17.413s]       |     [32m[KSEND_DATA[m[K
+[17.423s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSend_Data[m[K’ does not name a type; did you mean ‘[01m[KSEND_DATA[m[K’?
+[17.424s]    73 |     [01;31m[KSend_Data[m[K.tx[10]=FRAME_TAIL;
+[17.424s]       |     [01;31m[K^~~~~~~~~[m[K
+[17.425s]       |     [32m[KSEND_DATA[m[K
+[17.425s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:75:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+[17.426s]    75 |     [01;31m[Ktry[m[K {
+[17.426s]       |     [01;31m[K^~~[m[K
+[17.427s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:77:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+[17.427s]    77 |     } [01;31m[Kcatch[m[K (serial::IOException& e) {
+[17.428s]       |       [01;31m[K^~~~~[m[K
+[17.428s] [01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:80:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[17.428s]    80 | [01;31m[K}[m[K
+[17.429s]       | [01;31m[K^[m[K
+[39.673s] gmake[2]: *** [CMakeFiles/origincar_base_node.dir/build.make:76: CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o] Error 1
+[39.676s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/origincar_base_node.dir/all] Error 2
+[39.678s] gmake: *** [Makefile:146: all] Error 2
+[39.698s] Invoked command in '/root/dev_ws/build/origincar_base' returned '2': CMAKE_PREFIX_PATH=/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/origincar_base -- -j8 -l8

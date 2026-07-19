@@ -1,0 +1,39 @@
+<!--
+  R3-1 行为树：去掉所有 BackUp/Spin 倒车逻辑
+  改动 (R3-1):
+    1. 删 ThreePointTurnRecovery (recovery 兜底里的三把轮)
+    2. 删 RoundRobin 末尾的单独 BackUp (0.05 m/s 缓速倒车)
+    3. 删 PostNavTurn (每个 wp 完成后强制后置三把轮)
+  保留:
+    - 主导航 RecoveryNode 包裹 (跟原版一样)
+    - RoundRobin 里的 ClearingActions + Wait 5s (Nav2 上游默认 recovery 兜底)
+  车行为: 只能向前转弯；recovery 失败时只清 costmap + 等 5s，不倒车不旋转
+-->
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RecoveryNode number_of_retries="6" name="NavigateRecovery">
+      <PipelineSequence name="NavigateWithReplanning">
+        <RateController hz="1.0">
+          <RecoveryNode number_of_retries="1" name="ComputePathToPose">
+            <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+            <ClearEntireCostmap name="ClearGlobalCostmap-Context" service_name="global_costmap/clear_entirely_global_costmap"/>
+          </RecoveryNode>
+        </RateController>
+        <RecoveryNode number_of_retries="1" name="FollowPath">
+          <FollowPath path="{path}" controller_id="FollowPath"/>
+          <ClearEntireCostmap name="ClearLocalCostmap-Context" service_name="local_costmap/clear_entirely_local_costmap"/>
+        </RecoveryNode>
+      </PipelineSequence>
+      <ReactiveFallback name="RecoveryFallback">
+        <GoalUpdated/>
+        <RoundRobin name="RecoveryActions">
+          <Sequence name="ClearingActions">
+            <ClearEntireCostmap name="ClearLocalCostmap-Subtree" service_name="local_costmap/clear_entirely_local_costmap"/>
+            <ClearEntireCostmap name="ClearGlobalCostmap-Subtree" service_name="global_costmap/clear_entirely_global_costmap"/>
+          </Sequence>
+          <Wait wait_duration="5"/>
+        </RoundRobin>
+      </ReactiveFallback>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>

@@ -1,0 +1,36 @@
+[0.275s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j8 -l8
+[4.511s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j8 -l8
+[4.524s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_description
+[4.583s] -- Install configuration: ""
+[4.590s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch
+[4.594s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch
+[4.596s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py
+[4.603s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[4.609s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf
+[4.613s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[4.624s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[4.629s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz
+[4.632s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/README
+[4.634s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz
+[4.635s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes
+[4.638s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[4.640s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[4.647s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[4.649s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[4.651s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[4.653s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[4.658s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[4.661s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[4.663s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[4.665s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh
+[4.672s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv
+[4.673s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash
+[4.675s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh
+[4.676s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh
+[4.677s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv
+[4.679s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/package.dsv
+[4.680s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[4.681s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[4.682s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[4.683s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/package.xml
+[5.528s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_description

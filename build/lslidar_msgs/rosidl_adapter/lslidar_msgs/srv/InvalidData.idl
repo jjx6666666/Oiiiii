@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/InvalidData.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "1550 是否发布无效数据  不发布无效数据可降低驱动算力，但点云时间不连续   0: 发送  1: 不发送")
+    struct InvalidData_Request {
+      uint8 invalid_data;
+    };
+    struct InvalidData_Response {
+      boolean result;
+    };
+  };
+};

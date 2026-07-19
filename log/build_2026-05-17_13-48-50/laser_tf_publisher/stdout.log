@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/laser_tf_publisher/laser_tf_publisher.egg-info
+writing ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/requires.txt
+writing top-level names to ../../build/laser_tf_publisher/laser_tf_publisher.egg-info/top_level.txt
+writing manifest file '../../build/laser_tf_publisher/laser_tf_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/laser_tf_publisher/laser_tf_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/laser_tf_publisher/laser_tf_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev_ws/build/laser_tf_publisher/build
+creating /root/dev_ws/build/laser_tf_publisher/build/lib
+creating /root/dev_ws/build/laser_tf_publisher/build/lib/laser_tf_publisher
+copying laser_tf_publisher/static_tf_broadcaster.py -> /root/dev_ws/build/laser_tf_publisher/build/lib/laser_tf_publisher
+copying laser_tf_publisher/__init__.py -> /root/dev_ws/build/laser_tf_publisher/build/lib/laser_tf_publisher
+running install
+running install_lib
+creating /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher
+copying /root/dev_ws/build/laser_tf_publisher/build/lib/laser_tf_publisher/static_tf_broadcaster.py -> /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher
+copying /root/dev_ws/build/laser_tf_publisher/build/lib/laser_tf_publisher/__init__.py -> /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher
+byte-compiling /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher/static_tf_broadcaster.py to static_tf_broadcaster.cpython-310.pyc
+byte-compiling /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/dev_ws/install/laser_tf_publisher/share/ament_index
+creating /root/dev_ws/install/laser_tf_publisher/share/ament_index/resource_index
+creating /root/dev_ws/install/laser_tf_publisher/share/ament_index/resource_index/packages
+copying resource/laser_tf_publisher -> /root/dev_ws/install/laser_tf_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev_ws/install/laser_tf_publisher/share/laser_tf_publisher
+running install_egg_info
+Copying ../../build/laser_tf_publisher/laser_tf_publisher.egg-info to /root/dev_ws/install/laser_tf_publisher/lib/python3.10/site-packages/laser_tf_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing static_laser_tf_broadcaster script to /root/dev_ws/install/laser_tf_publisher/lib/laser_tf_publisher
+writing list of installed files to '/root/dev_ws/build/laser_tf_publisher/install.log'

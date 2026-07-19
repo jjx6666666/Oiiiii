@@ -1,0 +1,22 @@
+[5.850s] Invoking command in '/root/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_bringup -- -j8 -l8
+[7.666s] Invoked command in '/root/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/origincar_bringup -- -j8 -l8
+[7.672s] Invoking command in '/root/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_bringup
+[7.933s] -- Install configuration: ""
+[7.934s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch
+[7.935s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[7.936s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[7.936s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[7.937s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[7.937s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[7.938s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[7.939s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[7.939s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[7.940s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[7.940s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[7.941s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[7.941s] -- Installing: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+[7.942s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[7.942s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[7.943s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[7.943s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.xml
+[7.944s] Invoked command in '/root/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/origincar_bringup

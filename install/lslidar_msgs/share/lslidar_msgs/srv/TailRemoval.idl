@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/TailRemoval.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "机械式 去拖尾 新版本: 0-10   旧版本: 0-4")
+    struct TailRemoval_Request {
+      uint8 tail_removal;
+    };
+    struct TailRemoval_Response {
+      boolean result;
+    };
+  };
+};

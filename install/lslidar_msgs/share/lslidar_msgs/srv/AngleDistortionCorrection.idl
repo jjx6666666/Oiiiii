@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/AngleDistortionCorrection.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "1550 角度畸变矫正 开启次功能可降低驱动算力     0: 关闭  1: 开启 ")
+    struct AngleDistortionCorrection_Request {
+      uint8 angle_distortion_correction;
+    };
+    struct AngleDistortionCorrection_Response {
+      boolean result;
+    };
+  };
+};

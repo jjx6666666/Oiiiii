@@ -1,0 +1,33 @@
+[0.242s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/serial -- -j8 -l8
+[4.581s] [100%] Built target serial
+[4.634s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /root/dev_ws/build/serial -- -j8 -l8
+[4.641s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/serial
+[5.290s] -- Install configuration: ""
+[5.291s] -- Up-to-date: /root/dev_ws/install/serial/lib/libserial.a
+[5.292s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.sh
+[5.294s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[5.295s] -- Up-to-date: /root/dev_ws/install/serial/include/serial
+[5.297s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl
+[5.298s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/unix.h
+[5.299s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/win.h
+[5.300s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/serial.h
+[5.301s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/v8stdint.h
+[5.302s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[5.303s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[5.303s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[5.308s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[5.310s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.sh
+[5.311s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.dsv
+[5.311s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.bash
+[5.312s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.sh
+[5.313s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.zsh
+[5.314s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.dsv
+[5.315s] -- Installing: /root/dev_ws/install/serial/share/serial/package.dsv
+[5.316s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[5.316s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.317s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[5.318s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.319s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[5.320s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[5.323s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/package.xml
+[5.456s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /root/dev_ws/build/serial

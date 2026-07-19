@@ -1,0 +1,68 @@
+[0.119s] Invoking command in '/root/dev_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/lslidar_driver -- -j8 -l8
+[1.008s] [ 81%] Built target lslidar_driver
+[1.234s] [100%] Built target lslidar_driver_node
+[1.299s] Invoked command in '/root/dev_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /root/dev_ws/build/lslidar_driver -- -j8 -l8
+[1.312s] Invoking command in '/root/dev_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /root/dev_ws/build/lslidar_driver
+[1.367s] -- Install configuration: "Release"
+[1.369s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/lib/lslidar_driver/liblslidar_driver.a
+[1.372s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[1.375s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include
+[1.378s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver
+[1.380s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp
+[1.382s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/input.hpp
+[1.383s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lsiosr.hpp
+[1.384s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp
+[1.385s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_services.hpp
+[1.386s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp
+[1.386s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp
+[1.387s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/ThreadPool.h
+[1.391s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp
+[1.393s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp
+[1.394s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp
+[1.395s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_log.hpp
+[1.396s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp
+[1.398s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp
+[1.399s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/config
+[1.400s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10_uart.yaml
+[1.401s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_x10.yaml
+[1.401s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/config/network_setup.yaml
+[1.405s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[1.406s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_cx.rviz
+[1.407s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ls.rviz
+[1.408s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ch.rviz
+[1.409s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_x10.rviz
+[1.410s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch
+[1.431s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[1.432s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[1.433s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[1.434s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[1.435s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ls_launch.py
+[1.437s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[1.442s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[1.444s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[1.449s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[1.450s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[1.452s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ch_launch.py
+[1.456s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[1.460s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_x10_launch.py
+[1.462s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.sh
+[1.463s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.dsv
+[1.464s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[1.466s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[1.466s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[1.467s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[1.468s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[1.470s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[1.471s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[1.472s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[1.474s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[1.476s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[1.477s] -- Installing: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[1.477s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[1.478s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.478s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.479s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.481s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[1.484s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[1.486s] -- Up-to-date: /root/dev_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[1.487s] Invoked command in '/root/dev_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/lslidar_msgs:/root/dev_ws/install/utils:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/lslidar_driver:/root/dev_ws/install/hobot_nav2:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/line_follower_pkg:/root/dev_ws/install/laser_tf_publisher:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/root/dev_ws/install/lslidar_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/lslidar_driver/lib:/root/dev_ws/install/ackermann_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /root/dev_ws/build/lslidar_driver

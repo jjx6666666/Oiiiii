@@ -1,0 +1,4 @@
+source;share/hobot_nav2/local_setup.bash
+source;share/hobot_nav2/local_setup.dsv
+source;share/hobot_nav2/local_setup.sh
+source;share/hobot_nav2/local_setup.zsh

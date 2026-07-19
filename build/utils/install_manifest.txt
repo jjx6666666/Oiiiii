@@ -1,0 +1,16 @@
+/root/dev_ws/install/utils/lib/utils/image_transport_node
+/root/dev_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+/root/dev_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+/root/dev_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+/root/dev_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+/root/dev_ws/install/utils/share/utils/environment/path.sh
+/root/dev_ws/install/utils/share/utils/environment/path.dsv
+/root/dev_ws/install/utils/share/utils/local_setup.bash
+/root/dev_ws/install/utils/share/utils/local_setup.sh
+/root/dev_ws/install/utils/share/utils/local_setup.zsh
+/root/dev_ws/install/utils/share/utils/local_setup.dsv
+/root/dev_ws/install/utils/share/utils/package.dsv
+/root/dev_ws/install/utils/share/ament_index/resource_index/packages/utils
+/root/dev_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+/root/dev_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+/root/dev_ws/install/utils/share/utils/package.xml
